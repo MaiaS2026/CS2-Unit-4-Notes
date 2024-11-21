@@ -27,6 +27,35 @@ public class Main {
          count++; // equivalebt to count = count + 1;
       }
 
+      // FOR LOOPS are "shortcuts" for looping when you know
+      // how many times the loop should run
+      for (int i = 0; i < 13; i++) {
+         // LOOP BODY (process to be repeated)
+         System.out.println("For loop, i = " +i);
+      }
+
+      // You can change the variable by anything!
+      // What does this loop do? -->
+      // How many times does it loop? -->
+      for (int i = 8; i <=22; i+=2) {
+         System.out.println ("For loop #2, i = " +i);
+      }
+      
+      // BACKWARDS looping
+      // You must change all 3 loop control parts!!
+      for (int i = 12; i >=1; i--) {
+         System.out.println(i + " bottles of coke on the wall");
+         System.out.println(i + " bottles of coke");
+         System.out.println("Take one down, pass it around");
+         System.out.println((i - 1) + " bottles of coke on the wall");
+         // check if on the last bottle (final iteration)
+         if (i ==1) {
+            System.out.println("They're all gone...");
+         }
+      }
+      
+      
+      
       // GUESSING GAME
       Scanner scan = new Scanner(System.in);
       // Choose a random number from 0-100
